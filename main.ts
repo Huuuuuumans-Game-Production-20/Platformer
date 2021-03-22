@@ -29,6 +29,28 @@ let NPC2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.NPC)
+tiles.placeOnRandomTile(NPC2, sprites.castle.shrub)
+tiles.setTileAt(tiles.getTileLocation(161, 30), assets.tile`transparency16`)
+let NPC3 = sprites.create(img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `, SpriteKind.NPC)
+tiles.placeOnRandomTile(NPC3, sprites.castle.saplingPine)
+tiles.setTileAt(tiles.getTileLocation(101, 18), assets.tile`transparency16`)
 forever(function () {
 	
 })
